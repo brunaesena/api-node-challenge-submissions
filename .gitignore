@@ -1,0 +1,26 @@
+# Ignorar a pasta node_modules
+node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de backup gerados por editores
+*~
+*.swp
+
+# Ignorar a pasta de saída (ex: dist ou build)
+/dist
+/build
+
+# Ignorar arquivos específicos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignorar arquivos de configuração de desenvolvimento local (ex: nodemon.json)
+nodemon.json
+
+# Ignorar arquivos de configuração do Visual Studio Code
+.vscode/
